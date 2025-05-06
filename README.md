@@ -4,13 +4,9 @@ Users can create, view, update, and delete todo items with persistent storage us
 
 ## Project Structure
 Java_TodoList/
-
 ├── src/
-
 │   └── com/
-
 │       └── todo/
-
 │           ├── model/
 │           │   └── Todo.java
 │           ├── dao/
