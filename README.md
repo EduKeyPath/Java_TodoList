@@ -21,9 +21,9 @@ CREATE TABLE todos (
 );
 
 ### 3. Configure DB Connection
-String url = "jdbc:mysql://localhost:3306/todo_app";
-String user = "your_mysql_username";
-String password = "your_mysql_password";
+- String url = "jdbc:mysql://localhost:3306/todo_app";
+- String user = "your_mysql_username";
+- String password = "your_mysql_password";
 
 ### 4. Compile
 javac -cp "lib/mysql-connector-j.jar" -d out $(find src -name "*.java")
