@@ -2,25 +2,6 @@
 A simple "console-based Todo List application" built using "Java" and "MySQL".  
 Users can create, view, update, and delete todo items with persistent storage using a MySQL database.
 
-## Project Structure
-Java_TodoList/
-├── src/
-│   └── com/
-│       └── todo/
-│           ├── model/
-│           │   └── Todo.java
-│           ├── dao/
-│           │   └── TodoDAO.java  # Data access logic
-│           ├── ui/
-│           │   └── TodoApp.java  # User interface
-│           └── db/
-│               └── DBConnection.java  # DB Connection
-├── lib 
-│   └── mysql-connector-j.jar # MySQL JDBC Driver
-└── todo.sql
-└── README.md
-
-
 ## Setup Instructions (I used)
 
 ### 1. Requirements
